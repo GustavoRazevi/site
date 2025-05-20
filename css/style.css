@@ -38,7 +38,7 @@ img.rounded {
 header.text-center {
   position: sticky;
   top: 0;
-  z-index: 200; /* mayor que el navbar */
+  z-index: 80; /* mayor que el navbar */
   background: #fff;
   transition: box-shadow 0.2s;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
@@ -47,7 +47,7 @@ header.text-center {
 /* Navbar fijo debajo del header */
 .navbar.sticky-top {
   position: sticky !important;
-  top: 140px; /* altura aproximada del header, ajusta si es necesario */
+  top: 90px; /* altura aproximada del header, ajusta si es necesario */
   z-index: 1040;
 }
 
