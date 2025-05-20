@@ -14,8 +14,8 @@ const oleoObras = [
   },
 
     {
-    thumb: "../img/acrilico/Cc.jpg",
-    full: "../img/acrilico/Cc.jpg",
+    thumb: "../img/acrilico/CC.jpg",
+    full: "../img/acrilico/CC.jpg",
     alt: "Las tazas",
     titulo: "Las tazas",
     tecnica: "Acrílico y chapopote sobre MDF",
@@ -212,8 +212,8 @@ const oleoObras = [
   },
   
     {
-    thumb: "../img/acrilico/acrilico-lienzo/Ángel-1.jpg",
-    full: "../img/acrilico/acrilico-lienzo/Ángel-1.jpg",
+    thumb: "../img/acrilico/acrilico-lienzo/ÁNGEL-1.jpg",
+    full: "../img/acrilico/acrilico-lienzo/ÁNGEL-1.jpg",
     alt:"Ángel 1",
     titulo: "Ángel 1",
     tecnica: "Acrílico sobre lienzo",
@@ -222,8 +222,8 @@ const oleoObras = [
     nodisponible: "No Disponible",
   },
     {
-    thumb: "../img/acrilico/acrilico-lienzo/Ángel-2.jpg",
-    full: "../img/acrilico/acrilico-lienzo/Ángel-2.jpg",
+    thumb: "../img/acrilico/acrilico-lienzo/ÁNGEL-2.jpg",
+    full: "../img/acrilico/acrilico-lienzo/ÁNGEL-2.jpg",
     alt:"Ángel 2",
     titulo: "Ángel 2",
     tecnica: "Acrílico sobre lienzo",
@@ -233,8 +233,8 @@ const oleoObras = [
   },
     
     {
-    thumb: "../img/acrilico/acrilico-lienzo/Ángel-3.jpg", 
-    full: "../img/acrilico/acrilico-lienzo/Ángel-3.jpg",
+    thumb: "../img/acrilico/acrilico-lienzo/ÁNGEL-3.jpg", 
+    full: "../img/acrilico/acrilico-lienzo/ÁNGEL-3.jpg",
     alt:"Ángel 3",
     titulo: "Ángel 3",
     tecnica: "Acrílico sobre lienzo",
