@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página web de Gustavo Razevi, artista plástico" />
+  <meta name="keywords" content="arte, pintura, Gustavo Razevi" />
+  <meta name="author" content="Gustavo Razevi" />
+  <link rel="icon" href="../img/logos/G-PNG.png" type="image/x-icon"/>
+  <title>Gustavo Razevi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
+  <!-- Header y Logo -->
+  <header class="text-center py-4">
+    <a href="../index.html" class="text-decoration-none text-dark">
+      <img src="../img/logos/logo.png" alt="Logo" style="height: 100%; width: 80%; max-width: 600px;" />
+    </a>
+  </header>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-top border-bottom sticky-top">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-2"><a class="nav-link" href="../index.html">INICIO</a></li>
+        <li class="nav-item dropdown mx-2">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">ARTE</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../html/oleo.html">ÓLEO</a></li> 
+            <li><a class="dropdown-item" href="../html/acrilico.html">ACRÍLICO</a></li>
+            <li><a class="dropdown-item" href="../html/pastel.html">PASTEL</a></li>
+            <li><a class="dropdown-item" href="../html/mixta.html">MIXTA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item mx-2"><a class="nav-link" href="../html/acerca.html">ACERCA DE</a></li>
+        <li class="nav-item mx-2"><a class="nav-link" href="../html/contacto.html">CONTACTO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+
+<!-- Banner con el tipo de obra -->
+<section class="banner-artista position-relative mb-5" >
+  <img src="../img/pincel-oleo.jpg" class="w-100 banner-img" alt="Obra de Gustavo Razevi" />
+  <div class="banner-overlay"></div>
+  <h1 class="banner-title position-absolute top-50 start-50 translate-middle text-white text-center animate__animated animate__fadeInDown" >
+    Obras al óleo
+  </h1>
+</section>
+
+<!-- Galería de Obras al Óleo (solo muestra el bloque relevante) -->
+<section class="container my-5">
+  <div class="row g-4" id="oleo-gallery">
+    <div class="col-12 col-sm-6 col-lg-4">
+      <!-- Solo imagen y texto, sin card ni contenedor extra -->
+      <div tabindex="0" role="button" aria-label="Ver detalle de obra: CANDY" onclick="openOleoModal(0)" style="cursor:pointer;">
+        <div class="oleo-img-wrapper position-relative overflow-hidden rounded-4" style="aspect-ratio:4/3;  display:flex;align-items:center;justify-content:center;">
+          <img src="../img/pastel/CANDY.jpg" 
+               data-full="../img/pastel/CANDY.jpg" 
+               alt="CANDY"
+               class="oleo-img" loading="lazy" style="max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;margin:auto;"/>
+        </div>
+        <div class="text-center mt-2">
+          <h3 class="oleo-title mb-0" style="font-family:'Playfair Display',serif; font-size:2rem;">CANDY</h3>
+        </div>
+      </div>
+    </div>
+    <!-- ...más obras aquí... -->
+  </div>
+</section>
+
+<!-- Modal/Lightbox para detalle de obra -->
+<div class="modal fade" id="oleoModal" tabindex="-1" aria-labelledby="oleoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content rounded-4 shadow-lg" style="background:#faf9f6;">
+      <div class="modal-header border-0 pb-0">
+        <button type="button" class="btn-close fs-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body d-flex flex-column flex-lg-row align-items-center justify-content-center gap-4">
+        <button class="oleo-nav-btn left minimal-nav" aria-label="Anterior" onclick="oleoPrev()">&larr;</button>
+        <div class="oleo-modal-img-wrapper position-relative" style="display:flex;align-items:center;justify-content:center;aspect-ratio:4/3;max-width:720px;max-height:540px;min-width:320px;min-height:240px;">
+          <img id="oleoModalImg" src="" alt="" class="rounded-4 shadow minimal-fade"
+            style="width:100%;height:100%;object-fit:contain;border:1px solid #e0e0e0;background:#eaeaea;display:block;margin:auto;transition:box-shadow .3s,transform .4s;"/>
+          <div id="oleoModalPlaceholder" class="oleo-modal-placeholder"></div>
+        </div>
+        <button class="oleo-nav-btn right minimal-nav" aria-label="Siguiente" onclick="oleoNext()">&rarr;</button>
+        <div class="oleo-modal-details ms-lg-4 mt-4 mt-lg-0" style="min-width:220px; max-width:320px;">
+          <h3 id="oleoModalTitle" class="mb-2" style="font-family:'Playfair Display',serif; color:#2a3a5c; font-size:1.3rem; letter-spacing:0.03em;"></h3>
+          <ul class="list-unstyled mb-2" style="font-family:'Lato',sans-serif; color:#444; font-size:0.98rem;">
+            <li><b>Técnica:</b> <span id="oleoModalTech"></span></li>
+            <li><b>Dimensiones:</b> <span id="oleoModalDims"></span></li>
+            <li><b>Año:</b> <span id="oleoModalYear"></span></li>
+            <left><li style="color: rgb(25, 164, 189);"><b><span id="oleoModalDisp"></span></b></li></left>
+            <left><li style="color: rgb(172, 0, 0);"><b><span id="oleoModalNoDisp"></span></b></li></left>
+          </ul>
+          <p id="oleoModalDesc" class="small" style="color:#666;"></p>
+          <div class="text-end text-muted mt-2" style="font-size:0.95rem;"><span id="oleoModalPos"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 border-top">
+    <a href="../index.html">
+    <img src="../img/logos/logo.png" alt="Logo" style="height: 20%; width: 50%; max-width: 500px;"  />
+    </a>
+    <p>&copy; 2025 Gustavo Medina Oceguera</p>
+    <div class="social-icons">
+      <a href="#"><img src="../img/logos/instagram.png" alt="Instagram" /></a>
+      <a href="#"><img src="../img/logos/facebook.png" alt="Facebook" /></a>
+      <a href="#"><img src="../img/logos/pinterest.png" alt="Pinterest" /></a>
+    </div>
+  </footer>
+
+  <!-- Scripts de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!--js con los estilos de las aglerias-->
+  <script src="../js/galeria-pastel.js"></script>
+  <script src="../js/bloquear-descarga.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Asegura que la imagen del modal siempre mantenga el aspect-ratio 4/3
+      function resizeModalImg() {
+        const wrapper = document.querySelector('.oleo-modal-img-wrapper');
+        if (!wrapper) return;
+        const img = document.getElementById('oleoModalImg');
+        if (!img) return;
+        // Forzar aspect-ratio 4/3
+        const width = wrapper.offsetWidth;
+        wrapper.style.height = (width * 3 / 4) + 'px';
+      }
+      // Llama al abrir modal y al cambiar tamaño de ventana
+      const oleoModal = document.getElementById('oleoModal');
+      if (oleoModal) {
+        oleoModal.addEventListener('shown.bs.modal', resizeModalImg);
+        window.addEventListener('resize', resizeModalImg);
+      }
+    });
+    </script>
+</body>
+</html>

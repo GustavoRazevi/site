@@ -1,0 +1,440 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+}
+
+.nav-link {
+  font-weight:100;
+  font-size: 1rem;
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #fff;
+}
+
+blockquote {
+  max-width: 400px;
+  font-size: 1rem;
+  
+}
+
+blockquote p {
+  font-size: 1.4rem;
+  color: #555;
+}
+
+footer img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+img.rounded {
+  border-radius: 1rem !important;
+}
+
+/* Header fijo y por encima del navbar */
+header.text-center {
+  position: sticky;
+  top: 0;
+  z-index: 104; /* mayor que el navbar */
+  background: #fff;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+/* Navbar fijo debajo del header */
+.navbar.sticky-top {
+  position: sticky !important;
+  top: 90px; /* altura aproximada del header, ajusta si es necesario */
+  z-index: 1040;
+}
+
+/* Efecto reveal tipo escalera */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(40px) scale(0.98);
+  transition: opacity 0.7s cubic-bezier(.23,1.02,.32,1), transform 0.7s cubic-bezier(.23,1.02,.32,1);
+  will-change: opacity, transform;
+  pointer-events: none;
+}
+.reveal-up.visible {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+
+/* Imagen destacada responsiva y estética */
+.featured-img {
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+/*estilo de cita */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+.cita-nietzsche {
+  font-family: 'Borel', cursive;
+  font-style: italic;
+  font-size: clamp(21px, 3vw, 2.8rem);
+  color: #2a3a5c;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 767.98px) {
+  .featured-img {
+    max-width: 98vw;
+    aspect-ratio: 4/3;
+    border-radius: 0.8rem !important;
+  }
+}
+
+/*Estilos de gallery*/
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 600px);
+  gap: 10px;
+  margin: 0 auto;
+  padding: 150px;
+}
+
+.gallery__item {
+  position: relative;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.gallery__img:hover {
+  transform: scale(0.99);
+  transition: all 0.3s ease;
+  filter: brightness(0.6);
+  border-radius: 1rem;
+}
+
+
+/* Pantallas pequeñas para galeria */
+@media screen and (max-width: 980px) {
+
+body {
+    padding: 0;
+    margin: 0;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9, 200px);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    gap: 10px;
+  }
+}
+
+
+
+/*Estilos de botones acerca de nosotros*/
+.about-card h2,
+.about-card .lead {
+  color: #2a3a5c;
+}
+
+.btn-outline-primary {
+  border-color: #2a3a5c;
+  color: #2a3a5c;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #abbde4;
+  color: #fff;
+  border-color: #000000;
+}
+
+.btn-outline-secondary {
+  border-color: #888;
+  color: #888;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: #888;
+  color: #fff;
+  border-color: #888;
+}
+
+/* About Us efectos */
+.about-img-wrapper {
+  background: #0a2947;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s;
+}
+
+.about-img-wrapper:hover img {
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.about-card {
+  backdrop-filter: blur(2px);
+  border: 1px solid #8b8a8a;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  transition: box-shadow 0.3s;
+  text-align: justify;
+  padding: 20px;
+}
+
+.about-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+}
+
+/* Mejora para imágenes verticales y horizontales en el modal */
+.oleo-modal-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 90vw;
+  max-height: 80vh;
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+#oleoModalImg {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain !important;
+  background: none !important;
+  box-shadow: none !important;
+  display: block;
+  margin: auto;
+  border: none !important;
+  border-radius: 0 !important;
+  transition: max-width 0.2s, max-height 0.2s;
+}
+
+/* Móviles: imagen aún más grande pero sin sobresalir */
+@media (max-width: 767.98px) {
+  .oleo-modal-img-wrapper {
+    max-width: 98vw;
+    max-height: 80vh;
+  }
+  #oleoModalImg {
+    max-width: 90vw;
+    max-height: 78vh;
+    border-radius: 0.7rem !important;
+  }
+}
+
+/* Minimalista: sin bordes, sin cards, solo imagen y texto */
+#oleo-gallery .col-12 {
+  padding: 0 0.5rem;
+}
+.oleo-img-wrapper {
+  aspect-ratio: 4/3;
+  background: none;
+  overflow: hidden;
+  border-radius: 1rem;
+  transition: box-shadow .3s, transform .4s;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.oleo-img {
+  width: 100\%;
+  height: 100%;
+  object-fit: contain;
+  background: none;
+  display: block;
+  margin: auto;
+  transition: transform .4s cubic-bezier(.23,1.02,.32,1), box-shadow .3s;
+  opacity: 0;
+  animation: fadeInImg .7s ease forwards;
+}
+@keyframes fadeInImg {
+  to { opacity: 1; }
+}
+.oleo-img-wrapper:hover .oleo-img,
+.oleo-img-wrapper:focus .oleo-img {
+  transform: scale(1.04) translateY(-2px);
+  box-shadow: 0 8px 32px rgba(42,58,92,0.13);
+}
+/* Quitar fondo y sombra a las imágenes de la galería de acrílico */
+#oleo-gallery .oleo-img-wrapper,
+#oleo-gallery .oleo-img,
+#oleo-gallery .acrilico-img-wrapper {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.oleo-title {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 0.7rem;
+  letter-spacing: 0.01em;
+  font-size: larger;
+  background: none;
+  border: none;
+}
+.minimal-nav {
+  background: none;
+  border: none;
+  color: #000000;
+  font-size: 2.2rem;
+  transition: color 0.2s;
+  outline: none;
+}
+.minimal-nav:hover, .minimal-nav:focus {
+  color: #2a3a5c;
+}
+body.modal-open > :not(.modal) {
+  filter: blur(6px) grayscale(0.08);
+  transition: filter 0.3s;
+}
+
+body.modal-open > :not(.modal) {
+  filter: blur(6px) grayscale(0.08);
+  transition: filter 0.3s;
+}
+
+/* Ajuste de altura del banner para dispositivos móviles */
+.banner-artista {
+  height: 340px;
+  min-height: 180px;
+  max-height: 420px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+}
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  filter: brightness(0.6);
+  transition: filter 0.5s;
+}
+@media (max-width: 767.98px) {
+  .banner-artista {
+    height: 160px;
+    min-height: 120px;
+    max-height: 100px;
+  }
+  .banner-title {
+    font-size: 1.3rem !important;
+    padding: 0 0.5rem;
+  }
+}
+
+.banner-artista:hover .banner-img {
+  filter: brightness(0.8) blur(1px);
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(120deg, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.15));
+  z-index: 1;
+}
+
+/* Imagen decorativa del formulario */
+.contact-img {
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 32px rgba(42,58,92,0.10);
+  object-fit: cover;
+  aspect-ratio: 4/5;
+  background: #f8fafc;
+}
+
+/* Formulario de contacto limpio y profesional */
+.contact-card {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 16px rgba(42,58,92,0.07);
+  transition: box-shadow .3s;
+  border: 1.5px solid #f0f0f0;
+}
+.contact-card:focus-within {
+  box-shadow: 0 8px 40px rgba(25,164,189,0.13);
+  border-color: #19a4bd;
+}
+#contactForm .form-label {
+  font-weight: 600;
+  color: #2a3a5c;
+  letter-spacing: 0.01em;
+}
+#contactForm .form-control {
+  border-radius: 0.7rem;
+  border: 1.5px solid #e0e0e0;
+  font-size: 1.08rem;
+  transition: border-color .2s, box-shadow .2s;
+  background: #f8fafc;
+  box-shadow: none;
+}
+#contactForm .form-control:focus {
+  border-color: #19a4bd;
+  box-shadow: 0 0 0 0.12rem rgba(25,164,189,.10);
+  background: #fff;
+}
+#contactForm .btn-primary {
+  background: linear-gradient(90deg, #19a4bd 0%, #2a3a5c 100%);
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  transition: background .2s;
+  border-radius: 0.7rem;
+}
+#contactForm .btn-primary:hover, #contactForm .btn-primary:focus {
+  background: linear-gradient(90deg, #2a3a5c 0%, #19a4bd 100%);
+}
+#formMsg {
+  min-height: 1.5em;
+  font-size: 1.08rem;
+}
+@media (max-width: 991.98px) {
+  .contact-img {
+    display: none !important;
+  }
+  .contact-card {
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact-card {
+    padding: 1.2rem !important;
+  }
+}
+
+/* Animaciones (usa animate.css o personaliza) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+/* Fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
