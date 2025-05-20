@@ -34,21 +34,40 @@ img.rounded {
   border-radius: 1rem !important;
 }
 
-/* Header fijo y por encima del navbar */
+/* Header fijo y por encima del navbar: ESCRITORIO */
 header.text-center {
   position: sticky;
   top: 0;
-  z-index: 80; /* mayor que el navbar */
+  z-index: 1041;
   background: #fff;
   transition: box-shadow 0.2s;
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
-/* Navbar fijo debajo del header */
+/* Navbar fijo debajo del header: ESCRITORIO */
 .navbar.sticky-top {
   position: sticky !important;
-  top: 90px; /* altura aproximada del header, ajusta si es necesario */
+  top: 140px; /* igual a la altura real del header en escritorio */
   z-index: 1040;
+  background: #fff;
+}
+
+/* --- MODO MÓVIL --- */
+@media (max-width: 767.98px) {
+  header.text-center {
+    position: sticky;
+    top: 0;
+    z-index: 80;
+    padding-top: 0.7rem !important;
+    padding-bottom: 0.7rem !important;
+  }
+  .navbar.sticky-top {
+    position: sticky !important;
+    top: 59px; /* igual a la altura real del header en móvil */
+    z-index: 1040;
+  }
 }
 
 /* Efecto reveal tipo escalera */
