@@ -14,8 +14,8 @@ const oleoObras = [
   },
   
     {
-    thumb: "../img/mixta/ELGRANMANTO.jpg",
-    full: "../img/mixta/ELGRANMANTO.jpg",
+    thumb: "../img/mixta/MANTO.jpg",
+    full: "../img/mixta/MANTO.jpg",
     alt: "El Gran Manto, técnica mixta sobre lienzo",
     titulo: "El Gran Manto",
     tecnica: "Técnica mixta sobre lienzo",
