@@ -9,7 +9,7 @@ const oleoObras = [
     titulo: "Abrazo el Universo",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "70 x 40 cm",
-    anio: "2023",
+    anio: "2002",
     disponibilidad: "Disponible",
   },
   {
@@ -19,7 +19,7 @@ const oleoObras = [
     titulo: "Alter Ego",
     tecnica: "Óleo sobre manta",
     dimensiones: "70 x 90 cm",
-    anio: "2023",
+    anio: "2005",
     disponibilidad: "Disponible",
   },
   {
@@ -29,7 +29,7 @@ const oleoObras = [
     titulo: "De Norte a Sur",
     tecnica: "Óleo sobre lienzo",
     dimensiones: "80 x 40 cm",  
-    anio: "2023",
+    anio: "2003",
     disponibilidad: "Disponible",
   },
   // ...Agrega aquí más objetos de obras...

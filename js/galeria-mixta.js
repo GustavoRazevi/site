@@ -3,6 +3,17 @@
 
 const oleoObras = [
   {
+    thumb: "../img/mixta/espacio.jpg",
+    full: "../img/mixta/espacio.jpg",
+    alt: "Espacio, técnica mixta sobre lienzo",
+    titulo: "Espacio-Tiempo",
+    tecnica: "Técnica Acrílico, chapopote y pigmentos sobre lienzo",
+    dimensiones: "90 x 110 cm",
+    anio: "2025",
+    nodisponible: "No disponible",
+  },
+
+  {
     thumb: "../img/mixta/ALEGORÍA DEL OCASO.jpg",
     full: "../img/mixta/ALEGORÍA DEL OCASO.jpg",
     alt: "Alegoría del Ocaso, técnica mixta sobre lienzo",
@@ -20,7 +31,7 @@ const oleoObras = [
     titulo: "El Gran Manto",
     tecnica: "Técnica mixta sobre lienzo",
     dimensiones: "70 x 90 cm",
-    anio: "2023",
+    anio: "2002",
     disponibilidad: "Disponible",
   },
   
@@ -31,7 +42,7 @@ const oleoObras = [
     titulo: "Equilibrio",
     tecnica: "Técnica mixta sobre lienzo",
     dimensiones: "49 x 62 cm",
-    anio: "2023",
+    anio: "2021",
     disponibilidad: "Disponible",
     },
     

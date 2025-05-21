@@ -9,7 +9,7 @@ const oleoObras = [
     titulo: "Buda No1",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -20,7 +20,7 @@ const oleoObras = [
     titulo: "Las tazas",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     nodisponible: "No Disponible",
   },
 
@@ -31,7 +31,7 @@ const oleoObras = [
     titulo: "Mariposa",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     nodisponible: "No Disponible",
   },
 
@@ -42,7 +42,7 @@ const oleoObras = [
     titulo: "Mano de Fatima",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "21 x 21 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -53,7 +53,7 @@ const oleoObras = [
     titulo: "OM",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "21 x 21 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -64,7 +64,7 @@ const oleoObras = [
     titulo: "Colibrí",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -75,7 +75,7 @@ const oleoObras = [
     titulo: "Limones",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -86,7 +86,7 @@ const oleoObras = [
     titulo: "Corazón Listón",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "21 x 21 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
     },
     
@@ -97,7 +97,7 @@ const oleoObras = [
     titulo: "Flor de Loto",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "21 x 21 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -108,7 +108,7 @@ const oleoObras = [
     titulo: "Ying'Yang",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "21 x 21 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible", 
   },
 
@@ -119,7 +119,7 @@ const oleoObras = [
     titulo: "Eclipse",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-      anio: "2023",
+      anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -130,10 +130,21 @@ const oleoObras = [
     titulo: "7 Vidas",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
+     {
+    thumb: "../img/acrilico/mural.jpg",
+    full: "../img/acrilico/mural.jpg",
+    alt: "Mural",
+    titulo: "Vista al campo",
+    tecnica: "Acrílico sobre mural",
+    dimensiones: "1.2 x 1.6 m",
+    anio: "2025",
+    nodisponible: "No Disponible",
+  },
+  
     {
     thumb: "../img/acrilico/CN.jpg",
     full: "../img/acrilico/CN.jpg",
@@ -141,7 +152,7 @@ const oleoObras = [
     titulo: "Hogar 1",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     nodisponible: "No Disponible",
   },
 
@@ -152,7 +163,7 @@ const oleoObras = [
     titulo: "Hogar 2",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     nodisponible: "No Disponible",
   },
 
@@ -163,7 +174,7 @@ const oleoObras = [
     titulo: "El faro",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "47 x 72 cm",
-    anio: "2023",
+    anio: "2025",
     nodisponible: "No Disponible",
   },
 
@@ -174,7 +185,7 @@ const oleoObras = [
     titulo: "Mujer de fuego",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 80 cm",
-    anio: "2023",
+    anio: "2025",
     nodisponible: "No Disponible",
   },
  
@@ -185,7 +196,7 @@ const oleoObras = [
     titulo: "Corazón Oaxaca",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "21 x 21 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -196,7 +207,7 @@ const oleoObras = [
     titulo: "Cristo Rey",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible",
   },
 
@@ -207,7 +218,7 @@ const oleoObras = [
     titulo: "Ojo de Ra",
     tecnica: "Acrílico y chapopote sobre MDF",
     dimensiones: "23 x 23 cm",
-    anio: "2023",
+    anio: "2025",
     disponibilidad: "Disponible", 
   },
   
@@ -218,7 +229,7 @@ const oleoObras = [
     titulo: "Ángel 1",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "20 x 26 cm",
-    anio: "2023",
+    anio: "2024",
     nodisponible: "No Disponible",
   },
     {
@@ -228,7 +239,7 @@ const oleoObras = [
     titulo: "Ángel 2",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "28 x 36 cm",
-    anio: "2023",
+    anio: "2024",
     nodisponible: "No Disponible",
   },
     
@@ -239,7 +250,7 @@ const oleoObras = [
     titulo: "Ángel 3",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "28 x 36 cm",
-    anio: "2023",
+    anio: "2024",
     disponibilidad: "Disponible",
   },
 
@@ -250,7 +261,7 @@ const oleoObras = [
     titulo: "Cohen",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "28 x 36 cm",
-    anio: "2023",
+    anio: "2024",
     disponibilidad: "Disponible",
   },
 
@@ -261,7 +272,7 @@ const oleoObras = [
     titulo: "En el muelle A",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "100 x 140 cm",
-    anio: "2023",
+    anio: "2018",
     nodisponible: "No Disponible",
   },
 
@@ -272,7 +283,7 @@ const oleoObras = [
     titulo: "Miles & Coltrane",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "100 x 140 cm",
-    anio: "2023",
+    anio: "2024",
     disponibilidad: "Disponible",
   },
 
@@ -283,7 +294,7 @@ const oleoObras = [
     titulo: "Protector",
     tecnica: "Acrílico sobre lienzo",
     dimensiones: "100 x 150 cm",
-    anio: "2023",
+    anio: "2015",
     nodisponible: "No Disponible",
   },
   // ...Agrega aquí más objetos de obras...

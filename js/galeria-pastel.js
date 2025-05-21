@@ -9,7 +9,7 @@ const oleoObras = [
     titulo: "Candy",
     tecnica: "Pastel sobre algodón",
     dimensiones: "37 x 30 cm",
-    anio: "2023",
+    anio: "2020",
     nodisponible: "No disponible",
   },
 
@@ -20,7 +20,7 @@ const oleoObras = [
     titulo: "Charly",   
     tecnica: "Pastel sobre algodón",
     dimensiones: "37 x 30 cm",
-    anio: "2023",
+    anio: "2024",
     nodisponible: "No disponible",
     },
 
