@@ -133,17 +133,6 @@ const oleoObras = [
     anio: "2025",
     disponibilidad: "Disponible",
   },
-
-     {
-    thumb: "../img/acrilico/mural.jpg",
-    full: "../img/acrilico/mural.jpg",
-    alt: "Mural",
-    titulo: "Vista al campo",
-    tecnica: "Acrílico sobre mural",
-    dimensiones: "1.2 x 1.6 m",
-    anio: "2025",
-    nodisponible: "No Disponible",
-  },
   
     {
     thumb: "../img/acrilico/CN.jpg",
@@ -167,6 +156,17 @@ const oleoObras = [
     nodisponible: "No Disponible",
   },
 
+    {
+    thumb: "../img/acrilico/mural.jpg",
+    full: "../img/acrilico/mural.jpg",
+    alt: "Mural",
+    titulo: "Vista al campo",
+    tecnica: "Acrílico sobre mural",
+    dimensiones: "1.2 x 1.6 m",
+    anio: "2025",
+    nodisponible: "No Disponible",
+  },
+  
     {
     thumb: "../img/acrilico/CO.jpg",
     full: "../img/acrilico/CO.jpg",
