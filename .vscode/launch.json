@@ -8,7 +8,6 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open oleo.html",
-            "file": "c:\\Users\\Alfredo\\Desktop\\Ravezi\\index.html",
             "runtimeExecutable": "C:\\Users\\Alfredo\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
         },
             
