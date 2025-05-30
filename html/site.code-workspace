@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "site",
+			"path": "../../../Documents/GitHub/site"
+		},
+		{
+			"name": "img",
+			"path": "../img"
+		},
+		{
+			"name": "js",
+			"path": "../js"
+		},
+		{
+			"name": "css",
+			"path": "../css"
+		},
+		{
+			"name": "html",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html"
+	}
+}
