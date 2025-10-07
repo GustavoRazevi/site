@@ -16,6 +16,7 @@ document.addEventListener('contextmenu', function(e) {
 });
 document.addEventListener('dragstart', function(e) {
   if (e.target.tagName === 'IMG') e.preventDefault();
+});
 // Evita clic derecho y arrastrar para todas las imágenes del sitio
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('img').forEach(function(img) {
