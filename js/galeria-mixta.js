@@ -65,7 +65,7 @@ const oleoObras = [
     tecnica: "Técnica mixta sobre lienzo",
     dimensiones: "80 x 100 cm",
     anio: "2023",
-    disponibilidad: "Disponible",
+    nodisponible: "No disponible",
     },
     
         {
@@ -79,6 +79,50 @@ const oleoObras = [
     disponibilidad: "Disponible",
     },
     
+  {
+    thumb: "../img/mixta/HGBROKEN.jpg",
+    full: "../img/mixta/HGBROKEN.jpg",
+    alt: "HGBROKEN, técnica mixta sobre lienzo",
+    titulo: "HG BROKEN",
+    tecnica: "Técnica mixta de acrílico, pigmentos, chapopote y óleo sobre lienzo",
+    dimensiones: "80 x 100 cm",
+    anio: "2025",
+    disponibilidad: "Disponible",
+  },
+
+  {
+    thumb: "../img/mixta/CALLEJÓNDELOSSUEÑOS.jpg",
+    full: "../img/mixta/CALLEJÓNDELOSSUEÑOS.jpg",
+    alt: "Callejón de los Sueños, técnica mixta sobre lienzo",
+    titulo: "Callejón de los Sueños",
+    tecnica: "Técnica mixta de acrílico, pigmentos, chapopote y óleo sobre lienzo",
+    dimensiones: "80 x 100 cm",
+    anio: "2025",
+    nodisponible: "No disponible",
+  },
+
+  {
+    thumb: "../img/mixta/ADVENIMIENTO.jpg",
+    full: "../img/mixta/ADVENIMIENTO.jpg",
+    alt: "Advenimiento, técnica mixta sobre lienzo",
+    titulo: "Advenimiento",
+    tecnica: "Técnica mixta de acrílico, pigmentos, chapopote y óleo sobre lienzo",
+    dimensiones: "80 x 100 cm",
+    anio: "2025",
+    nodisponible: "No disponible",
+  },
+
+    {
+    thumb: "../img/mixta/diptico.jpg",
+    full: "../img/mixta/diptico.jpg",
+    alt: "Díptico Bienaventuranza, técnica mixta sobre lienzo",
+    titulo: "Díptico Bienaventuranza",
+    tecnica: "Técnica mixta de óleo, acrílico y chapopote sobre manta",
+    dimensiones: "200 x 200 cm (Cada panel)",
+    anio: "2025",
+    nodisponible: "No disponible",
+  },
+
   // ...Agrega aquí más objetos de obras...
 ];
 
