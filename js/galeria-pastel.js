@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Galería de Estilos - JavaScript
 // Este script maneja la galería de obras de arte en la sección de "Óleo sobre lienzo"
 
@@ -100,7 +99,6 @@ window.addEventListener('DOMContentLoaded', () => {
     img.style.objectFit = 'contain';
   });
 });
-=======
 // Galería de Estilos - JavaScript
 // Este script maneja la galería de obras de arte en la sección de "Óleo sobre lienzo"
 
@@ -202,5 +200,4 @@ window.addEventListener('DOMContentLoaded', () => {
     img.style.objectFit = 'contain';
   });
 });
->>>>>>> 671624ede3f813e10404174b650f50f792bee7ff
 // Fredko :)
