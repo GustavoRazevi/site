@@ -83,7 +83,7 @@ const oleoObras = [
     thumb: "../img/mixta/HGBROKEN.jpg",
     full: "../img/mixta/HGBROKEN.jpg",
     alt: "HGBROKEN, técnica mixta sobre lienzo",
-    titulo: "HG BROKEN",
+    titulo: "HG broken",
     tecnica: "Técnica mixta de acrílico, pigmentos, chapopote y óleo sobre lienzo",
     dimensiones: "80 x 100 cm",
     anio: "2025",
@@ -111,8 +111,18 @@ const oleoObras = [
     anio: "2025",
     nodisponible: "No disponible",
   },
+ 
+  {
+    thumb: "../img/mixta/diptico.jpg",
+    full: "../img/mixta/diptico.jpg",
+    alt: "Díptico, técnica mixta sobre lienzo",
+    titulo: "Bienaventuranzas",
+    tecnica: "Técnica mixta de óleo, acrílico y chapopote sobre manta",
+    dimensiones: "200 cm x 200 cm (cada panel)",
+    anio: "2025",
+    nodisponible: "No disponible",
+  },
 
-  
 
   // ...Agrega aquí más objetos de obras...
 ];
