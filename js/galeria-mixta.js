@@ -102,8 +102,8 @@ const oleoObras = [
   },
 
   {
-    thumb: "../img/mixta/ADVENIMIENTO.jpg",
-    full: "../img/mixta/ADVENIMIENTO.jpg",
+    thumb: "../img/mixta/fenix.jpg",
+    full: "../img/mixta/fenix.jpg",
     alt: "Advenimiento, técnica mixta sobre lienzo",
     titulo: "Advenimiento",
     tecnica: "Técnica mixta de acrílico, pigmentos, chapopote y óleo sobre lienzo",
