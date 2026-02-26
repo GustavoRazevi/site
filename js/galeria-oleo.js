@@ -42,7 +42,8 @@ const oleoObras = [
     dimensiones: "70 x 90 cm",
     anio: "2026",
     disponibilidad: "Disponible",
-}
+},
+
   // ...Agrega aquí más objetos de obras...
 ];
 
