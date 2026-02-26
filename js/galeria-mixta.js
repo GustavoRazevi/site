@@ -123,6 +123,28 @@ const oleoObras = [
     nodisponible: "No disponible",
   },
 
+        {
+    thumb: "../img/mixta/OCRE.jpg",
+    full: "../img/mixta/OCRE.jpg",
+    alt:"Ocre",
+    titulo: "Ocre",
+    tecnica: "TÉCNICA MIXTA (ÓLEO, ACRÍLICO, PIGMENTOS Y CHAPOPOTE)",
+    dimensiones: "90 x 110 cm",
+    anio: "2025",
+    nodisponible: "No Disponible",
+  },
+
+  { 
+    thumb: "../img/mixta/QUINTET.jpg",
+    full: "../img/mixta/QUINTET.jpg",
+    alt:"Quintet",
+    titulo: "Quintet Cassiopeia",
+    tecnica: "TÉCNICA MIXTA (ÓLEO, ACRÍLICO, PIGMENTOS Y CHAPOPOTE)",
+    dimensiones: "80 x 100 cm",
+    anio: "2026",
+    disponibilidad: "Disponible",
+  },
+
 
   // ...Agrega aquí más objetos de obras...
 ];

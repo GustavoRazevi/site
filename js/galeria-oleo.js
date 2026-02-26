@@ -32,6 +32,17 @@ const oleoObras = [
     anio: "2003",
     disponibilidad: "Disponible",
   },
+
+{
+    thumb: "../img/oleo/TU ALMA.jpg",
+    full: "../img/oleo/TU ALMA.jpg",
+    alt: "Tu alma, óleo sobre lienzo",
+    titulo: "Tu alma",
+    tecnica: "Óleo sobre lienzo",
+    dimensiones: "70 x 90 cm",
+    anio: "2026",
+    disponibilidad: "Disponible",
+}
   // ...Agrega aquí más objetos de obras...
 ];
 

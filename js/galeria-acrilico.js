@@ -12,150 +12,7 @@ const oleoObras = [
     anio: "2025",
     disponibilidad: "Disponible",
   },
-
-    {
-    thumb: "../img/acrilico/CC.jpg",
-    full: "../img/acrilico/CC.jpg",
-    alt: "Las tazas",
-    titulo: "Las tazas",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    nodisponible: "No Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CD.jpg",
-    full: "../img/acrilico/CD.jpg",
-    alt: "Mariposa",
-    titulo: "Mariposa",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    nodisponible: "No Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CE.jpg",
-    full: "../img/acrilico/CE.jpg",
-    alt: "Mano de Fatima",
-    titulo: "Mano de Fatima",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "21 x 21 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CF.jpg",
-    full: "../img/acrilico/CF.jpg",
-    alt: "OM",
-    titulo: "OM",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "21 x 21 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CG.jpg",
-    full: "../img/acrilico/CG.jpg",
-    alt: "Colibrí",
-    titulo: "Colibrí",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
-
-   {
-    thumb: "../img/acrilico/CH.jpg",
-    full: "../img/acrilico/CH.jpg",
-    alt: "Limones",
-    titulo: "Limones",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CI.jpg",    
-    full: "../img/acrilico/CI.jpg",
-    alt: "Corazón Listón",
-    titulo: "Corazón Listón",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "21 x 21 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-    },
     
-    {
-    thumb: "../img/acrilico/CJ.jpg",
-    full: "../img/acrilico/CJ.jpg", 
-    alt:"Flor de Loto",
-    titulo: "Flor de Loto",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "21 x 21 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CK.jpg",
-    full: "../img/acrilico/CK.jpg",
-    alt:"Ying'Yang",
-    titulo: "Ying'Yang",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "21 x 21 cm",
-    anio: "2025",
-    disponibilidad: "Disponible", 
-  },
-
-    {
-    thumb: "../img/acrilico/CL.jpg",
-    full: "../img/acrilico/CL.jpg",
-    alt:"Eclipse",
-    titulo: "Eclipse",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-      anio: "2025",
-    disponibilidad: "Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CM.jpg",
-    full: "../img/acrilico/CM.jpg",
-    alt:"7 Vidas",
-    titulo: "7 Vidas",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
-  
-    {
-    thumb: "../img/acrilico/CN.jpg",
-    full: "../img/acrilico/CN.jpg",
-    alt:"Hogar 1",
-    titulo: "Hogar 1",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    nodisponible: "No Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CÑ.jpg",
-    full: "../img/acrilico/CÑ.jpg",
-    alt:"Hogar 2",
-    titulo: "Hogar 2",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    nodisponible: "No Disponible",
-  },
-
     {
     thumb: "../img/acrilico/mural.jpg",
     full: "../img/acrilico/mural.jpg",
@@ -188,17 +45,6 @@ const oleoObras = [
     anio: "2025",
     nodisponible: "No Disponible",
   },
- 
-    {
-    thumb: "../img/acrilico/CQ.jpg",
-    full: "../img/acrilico/CQ.jpg",
-    alt:"Corazón Oaxaca",
-    titulo: "Corazón Oaxaca",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "21 x 21 cm",
-    anio: "2025",
-    disponibilidad: "Disponible",
-  },
 
     {
     thumb: "../img/acrilico/CR.jpg",
@@ -209,17 +55,6 @@ const oleoObras = [
     dimensiones: "23 x 23 cm",
     anio: "2025",
     disponibilidad: "Disponible",
-  },
-
-    {
-    thumb: "../img/acrilico/CU.jpg",
-    full: "../img/acrilico/CU.jpg",
-    alt: "Ojo de Ra",
-    titulo: "Ojo de Ra",
-    tecnica: "Acrílico y chapopote sobre MDF",
-    dimensiones: "23 x 23 cm",
-    anio: "2025",
-    disponibilidad: "Disponible", 
   },
   
     {
@@ -297,6 +132,7 @@ const oleoObras = [
     anio: "2015",
     nodisponible: "No Disponible",
   },
+  
   // ...Agrega aquí más objetos de obras...
 ];
 
