@@ -123,9 +123,9 @@ const oleoObras = [
     nodisponible: "No disponible",
   },
 
-        {
-    thumb: "../img/mixta/OCRE.jpg",
-    full: "../img/mixta/OCRE.jpg",
+  {
+    thumb: "../img/mixta/Ocre.jpg",
+    full: "../img/mixta/Ocre.jpg",
     alt:"Ocre",
     titulo: "Ocre",
     tecnica: "TÉCNICA MIXTA (ÓLEO, ACRÍLICO, PIGMENTOS Y CHAPOPOTE)",
@@ -135,8 +135,8 @@ const oleoObras = [
   },
 
   { 
-    thumb: "../img/mixta/QUINTET.jpg",
-    full: "../img/mixta/QUINTET.jpg",
+    thumb: "../img/mixta/Quintet.jpg",
+    full: "../img/mixta/Quintet.jpg",
     alt:"Quintet",
     titulo: "Quintet Cassiopeia",
     tecnica: "TÉCNICA MIXTA (ÓLEO, ACRÍLICO, PIGMENTOS Y CHAPOPOTE)",
